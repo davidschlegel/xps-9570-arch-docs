@@ -36,3 +36,14 @@ systemctl start NetworkManager.service
 #... and connect
 nmcli device wifi connect <SSID> password <PASSWORD>
 
+#install firmware updater fwupd
+sudo pacman -Syu fwupd
+#get available devices
+fwupdmgr get-devices
+#refresh metadata
+fwupdmgr refresh
+#check for updates
+fwupdmgr get-updates
+#install updates (requires root usually)
+sudo fwupdmgr update
+#wait for the update to finish; it reboots automatically.
