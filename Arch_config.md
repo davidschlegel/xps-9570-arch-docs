@@ -60,3 +60,17 @@ yadm add <dotfiles-to-keep-track-of>
 #To have a better overview, I suggest to add a .gitignore file to list all files you don't want to track.
 
 
+#Install i3-gaps
+yay i3-gaps dmenu
+#Install X
+yay xorg-xrandr xf86-video-intel xorg-server xorg-xinit
+#Make an Xorg configuration file via
+Xorg -configure
+#and copy it the generated file to /etc/X11/xorg.conf
+#you can modify ~/.Xresources and ~/.xinitrc as you whish
+#There is a lot to customize here.
+
+
+
+
+
