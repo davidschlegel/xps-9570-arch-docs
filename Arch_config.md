@@ -12,7 +12,7 @@ git clone https://github.com/Jguer/yay
 #install go, make, gcc to compile it (It's all in the base-devel, but I didn't want to have so mach bloatware)
 sudo pacman -Syu go make gcc
 #export the path to make it executable globally
-export PATH=<Path-to-your-executable>:$PATH
+echo 'path+=<Path-to-your-executable>' >> ~/.zshrc
 #and make it directly happen...
 source ~/.zshrc
 
@@ -24,4 +24,15 @@ sudo pacman -Syu nvidia
 #use libglvnd as a libgl provider since it is just a dispatch library (bridge) for mesa-libgl and nvidia-libgl
 #also install nvidia-utils
 sudo pacman -Syu nvidia-utils
-#and reboot. Testing with lscpi as above should now show the nvidia driver loaded.
+#...and reboot. Testing with lscpi as above should now show the nvidia driver loaded.
+
+#Install network manager to autoconnect.
+sudo pacman -Syu networkmanager
+#connect to wifi:
+#enable systemd service for Networkmanager
+systemctl enable NetworkManager.service
+#... and start it
+systemctl start NetworkManager.service
+#... and connect
+nmcli device wifi connect <SSID> password <PASSWORD>
+
