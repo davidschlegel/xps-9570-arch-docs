@@ -15,3 +15,12 @@ sudo pacman -Syu go make gcc
 export PATH=<Path-to-your-executable>:$PATH
 #and make it directly happen...
 source ~/.zshrc
+
+#Install nvidia driver
+#check your graphics and installed drivers by
+lspci -k | grep -A 2 -E "(VGA|3D)"
+#install nvidia driver
+sudo pacman -Syu nvidia
+#use libglvnd as a libgl provider since it is just a dispatch library (bridge) for mesa-libgl and nvidia-libgl
+#also install nvidia-utils
+sudo pacman -Syu nvidia-utils
