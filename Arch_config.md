@@ -47,3 +47,16 @@ fwupdmgr get-updates
 #install updates (requires root usually)
 sudo fwupdmgr update
 #wait for the update to finish; it reboots automatically.
+
+
+#track dotfiles
+#Use yadm for this!
+yay yadm-git
+#add all neccessary files in your home directory
+yadm init
+yadm add <dotfiles-to-keep-track-of>
+#everything works just like git
+#to keep track up new dotfiles, be sure you add them.
+#To have a better overview, I suggest to add a .gitignore file to list all files you don't want to track.
+
+
