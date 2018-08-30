@@ -24,3 +24,4 @@ sudo pacman -Syu nvidia
 #use libglvnd as a libgl provider since it is just a dispatch library (bridge) for mesa-libgl and nvidia-libgl
 #also install nvidia-utils
 sudo pacman -Syu nvidia-utils
+#and reboot. Testing with lscpi as above should now show the nvidia driver loaded.
