@@ -62,15 +62,84 @@ yadm add <dotfiles-to-keep-track-of>
 
 #Install i3-gaps
 yay i3-gaps dmenu
-#Install X
-yay xorg-xrandr xf86-video-intel xorg-server xorg-xinit
+#Along with it, you probably want a nice lock screen
+sudo pacman -Syu i3lock imagemagicks
+git clone https://github.com/guimeira/i3lock-fancy-multimonitor
+#Then, you might want to install polybar as a nice bar:
+yay polybar-git
+
+
+#Install X and X related stuff
+yay xorg-xrandr xf86-video-intel xorg-server xorg-xinit xorg-xev xorg-xbacklight
 #Make an Xorg configuration file via
 Xorg -configure
 #and copy it the generated file to /etc/X11/xorg.conf
 #you can modify ~/.Xresources and ~/.xinitrc as you whish
 #There is a lot to customize here.
+#On this machine, it is also good to put
+acpi_rev_override=1
+#to your kernel options
+
+#Install scrot to take screenshots
+yay scrot
+
+#Install caffeine-ng to prevent system from going to sleep
+yay caffeine-ng
+
+#Install redshift (with additional packages for system tray)
+sudo pacman -Syu redshift gtk3 python-gobject python-xdg
+#Add the following to /etc/geoclue/geoclue.conf to let redshift acces automatic location 
+[redshift]
+allowed=true
+system=false
+users=
+#In i3, it is important to enable the geoclue agent on startup, so put
+exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
+#to your i3 config.
+#You can enable a systemd user unit with
+systemctl --user enable redshift-gtk.service
+
+#Install Bluetooth
+sudo pacman -Syu bluez bluez-utils blueman
+#Enable systemd service
+systemctl enable bluetooth.service
+#Right now ther is an error with authorization (???)
+
+#Install pasystray, a tray for managing audio
+yay pasystray
+#Also install playerctl to control keybindinigs
+yay playerctl
+
+#Install network-manager-applet
+sudo pacman -Syu network-manager-applet
 
 
 
-
-
+#Power down discrete GPU
+#The GPU consumes a lot of power, so it is a very good idea
+#to power down the gpu permanently (unless you do graphics intensitive stuff)
+#The method presented here uses acpi_calls.
+#A perhaps better method is to use bumblebee and to start an application with
+#the nvidia gpu on demand by running it with primusrun/optirun. Every other applications
+#use the integrated intel gpu.
+#
+#First install acpi_call
+yay -Syu acpi_call
+#once acpi_call is installed, load the kernel module:
+sudo modprobe acpi_call
+#the basic command to power down the discrete gpu is:
+sudo /usr/share/acpi_call/examples/turn_off_gpu.sh | grep works
+#this should reveal on single entry
+#using powertop, the power drop should be noticable
+#
+#edit this file to add the kernel module to the array of modules to load at boot:
+sudo vim /etc/modules-load.d/acpi_call.conf
+#containing just
+acpi_call
+#To turn off the GPU at boot use systemd-tmpfile:
+sudo vim /etc/tmpfiles.d/acpi_call.conf
+#It should contain this:
+w /proc/acpi/call - - - - \\_SB.PCI0.PEG0.PEGP._OFF
+#
+#One problem that remains is that after suspension/hibernation the gpu is powered on
+# and has to be turned off manually
