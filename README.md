@@ -11,7 +11,7 @@ This is a repository where I document all kinds of stuff about my Dell xps 9570 
     My installation proceedure. Most of it was taken by [grobgl](https://github.com/grobgl/arch-linux-setup)
 
  - [pacman package list](https://github.com/davidschlegel/xps-9570-arch-docs/blob/master/pacman_packages_explicit.txt)
-    list of pacman packages sorted by date, generated with the command:
+    list of pacman packages sorted by date, generated with the command:\
 
   `expac --timefmt='%Y-%m-%d %T' -HM '%l\t\t%-30n\t%10d' $(pacman -Qqent) | sort > pacman_packages_explicit.txt`
 
