@@ -180,7 +180,7 @@ systemctl enable systemd-swap.service
 sudo vim /sys/fs/cgroup/memory/memory.swappiness 
 #to a value of (default is 60)
 10
-
+#
 #Hibernation into swap file
 #
 #set kernel parameter
@@ -194,3 +194,13 @@ filefrag -v <swap_file>
 #or -- to be absolutely sure -- by using
 swap-offset
 #from the uswusp-git in the AUR.
+#
+#configure initramfs if neccessary (it is NOT when you have already the systemd hook)
+sudo vim /etc/mkinitcpio.conf
+#and edit
+HOOKS=(... resume ...)
+#resume hook should hook after lvm2, if you use LVM partitions
+#... and regenerade initramfs
+sudo mkinitcpio -p linux
+#
+#...and you sould be good to go after a reboot.
