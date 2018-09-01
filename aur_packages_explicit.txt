@@ -17,3 +17,5 @@
 2018-08-31 14:48:05		spotify                       	A proprietary music streaming service
 2018-09-01 11:33:03		xfce4-appfinder-gtk3          	An application finder for Xfce (GTK3 version)
 2018-09-01 14:08:12		typora                        	Typora will give you a seamless experience as both a reader and a writer.
+2018-09-01 17:41:51		vundle-git                    	Plug-in manager for Vim
+2018-09-01 18:18:20		powerline-fonts-git           	Powerline fonts for X11 and the console

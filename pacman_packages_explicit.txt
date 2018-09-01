@@ -1,18 +1,14 @@
 2018-08-30 17:04:11		iputils                       	Network monitoring tools, including ping
-2018-08-30 17:04:11		jfsutils                      	JFS filesystem utilities
 2018-08-30 17:04:11		licenses                      	Standard licenses distribution package
 2018-08-30 17:04:17		logrotate                     	Rotates system logs automatically
 2018-08-30 17:04:17		man-db                        	A utility for reading man pages
 2018-08-30 17:04:18		man-pages                     	Linux man pages
 2018-08-30 17:04:18		nano                          	Pico editor clone with enhancements
 2018-08-30 17:04:18		netctl                        	Profile based systemd network management
-2018-08-30 17:04:19		reiserfsprogs                 	Reiserfs utilities
 2018-08-30 17:04:19		vi                            	The original ex/vi text editor
 2018-08-30 17:04:20		efibootmgr                    	Tool to modify UEFI Firmware Boot Manager Variables
-2018-08-30 17:04:20		vim                           	Vi Improved, a highly configurable, improved version of the vi text editor
 2018-08-30 17:47:27		intel-ucode                   	Microcode update files for Intel CPUs
 2018-08-30 18:21:18		reflector                     	A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-2018-08-30 18:35:07		elinks                        	An advanced and well-established feature-rich text mode web browser.
 2018-08-30 18:38:22		go                            	Core compiler tools for the Go programming language
 2018-08-30 19:09:18		nvidia                        	NVIDIA drivers for linux
 2018-08-30 19:57:05		fwupd                         	A simple daemon to allow session software to update firmware
@@ -46,7 +42,6 @@
 2018-08-31 04:33:50		gettext                       	GNU internationalization library
 2018-08-31 04:33:50		make                          	GNU make utility to maintain groups of programs
 2018-08-31 04:33:50		patch                         	A utility to apply patch files to original sources
-2018-08-31 04:33:50		sudo                          	Give certain users the ability to run some commands as root
 2018-08-31 04:33:50		which                         	A utility to show the full path of commands
 2018-08-31 10:27:32		wget                          	Network utility to retrieve files from the Web
 2018-08-31 10:29:28		xsel                          	XSel is a command-line program for getting and setting the contents of the X selection
@@ -64,3 +59,15 @@
 2018-09-01 13:17:44		openssh                       	Premier connectivity tool for remote login with the SSH protocol
 2018-09-01 13:53:04		qt5-tools                     	A cross-platform application and UI framework (Development Tools, QtHelp)
 2018-09-01 14:38:53		expac                         	pacman database extraction utility
+2018-09-01 16:46:17		texstudio                     	Integrated writing environment for creating LaTeX documents
+2018-09-01 16:49:09		texlive-bibtexextra           	TeX Live - Additional BibTeX styles and bibliography databases
+2018-09-01 16:49:26		texlive-fontsextra            	TeX Live - all sorts of extra fonts
+2018-09-01 16:49:27		texlive-formatsextra          	TeX Live - collection of extra TeX 'formats'
+2018-09-01 16:49:28		texlive-humanities            	TeX Live - LaTeX packages for law, linguistics, social sciences, and humanities
+2018-09-01 16:49:28		texlive-pstricks              	TeX Live - Additional PSTricks packages
+2018-09-01 16:49:29		texlive-publishers            	TeX Live - LaTeX classes and packages for specific publishers
+2018-09-01 16:49:29		texlive-science               	TeX Live - Typesetting for mathematics, natural and computer sciences
+2018-09-01 17:07:56		gparted                       	A Partition Magic clone, frontend to GNU Parted
+2018-09-01 17:10:56		gnome-disk-utility            	Disk Management Utility for GNOME
+2018-09-01 17:58:34		powerline                     	Statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+2018-09-01 19:02:39		ranger                        	A simple, vim-like file manager
