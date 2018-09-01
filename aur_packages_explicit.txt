@@ -1,19 +1,19 @@
-2018-08-30 20:41:44	yadm-git            	Yet Another Dotfiles Manager
-2018-08-30 22:20:31	ttf-iosevka         	A slender monospace typeface. Shape: default
-2018-08-30 23:58:33	python-ewmh         	A python implementation of EWMH (Extended Window Manager Hints)
-2018-08-31 00:02:56	caffeine-ng         	Status bar application able to temporarily inhibit the screensaver and sleep mode.
-2018-08-31 01:10:42	polybar-git         	A fast and easy-to-use status bar
-2018-08-31 01:13:00	ttf-font-awesome-4  	100% free version of font awesome.
-2018-08-31 03:22:05	oh-my-zsh-git       	A community-driven framework for managing your zsh configuration. Includes 180+ optional plugins and over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community
-2018-08-31 03:22:55	bullet-train-oh-my-zsh-theme-git	An oh-my-zsh shell theme based on the Powerline Vim plugin
-2018-08-31 03:23:00	oh-my-zsh-powerline-theme-git	oh-my-zsh Powerline style theme
-2018-08-31 03:43:11	urxvtconfig         	A graphical user interface tool for configuration of the rxvt-unicode terminal emulator.
-2018-08-31 04:30:47	paper-icon-theme-git	Paper is an icon theme for GTK based desktops and fits perfectly the paper-gtk-theme
-2018-08-31 04:35:29	paper-gtk-theme-git 	A modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
-2018-08-31 10:26:21	ruby-nokogiri       	HTML, XML, SAX, and Reader parser
-2018-08-31 10:26:29	daemonize           	Run a program as a Unix daemon
-2018-08-31 10:26:34	flickpapr           	randomly choose an “interesting” flickr photo for desktop wallpaper
-2018-08-31 12:25:07	intel-undervolt     	Intel CPU undervolting tool
-2018-08-31 14:48:05	spotify             	A proprietary music streaming service
-2018-09-01 11:33:03	xfce4-appfinder-gtk3	An application finder for Xfce (GTK3 version)
-2018-09-01 14:08:12	typora              	Typora will give you a seamless experience as both a reader and a writer.
+2018-08-30 20:41:44		yadm-git                      	Yet Another Dotfiles Manager
+2018-08-30 22:20:31		ttf-iosevka                   	A slender monospace typeface. Shape: default
+2018-08-30 23:58:33		python-ewmh                   	A python implementation of EWMH (Extended Window Manager Hints)
+2018-08-31 00:02:56		caffeine-ng                   	Status bar application able to temporarily inhibit the screensaver and sleep mode.
+2018-08-31 01:10:42		polybar-git                   	A fast and easy-to-use status bar
+2018-08-31 01:13:00		ttf-font-awesome-4            	100% free version of font awesome.
+2018-08-31 03:22:05		oh-my-zsh-git                 	A community-driven framework for managing your zsh configuration. Includes 180+ optional plugins and over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community
+2018-08-31 03:22:55		bullet-train-oh-my-zsh-theme-git	An oh-my-zsh shell theme based on the Powerline Vim plugin
+2018-08-31 03:23:00		oh-my-zsh-powerline-theme-git 	oh-my-zsh Powerline style theme
+2018-08-31 03:43:11		urxvtconfig                   	A graphical user interface tool for configuration of the rxvt-unicode terminal emulator.
+2018-08-31 04:30:47		paper-icon-theme-git          	Paper is an icon theme for GTK based desktops and fits perfectly the paper-gtk-theme
+2018-08-31 04:35:29		paper-gtk-theme-git           	A modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
+2018-08-31 10:26:21		ruby-nokogiri                 	HTML, XML, SAX, and Reader parser
+2018-08-31 10:26:29		daemonize                     	Run a program as a Unix daemon
+2018-08-31 10:26:34		flickpapr                     	randomly choose an “interesting” flickr photo for desktop wallpaper
+2018-08-31 12:25:07		intel-undervolt               	Intel CPU undervolting tool
+2018-08-31 14:48:05		spotify                       	A proprietary music streaming service
+2018-09-01 11:33:03		xfce4-appfinder-gtk3          	An application finder for Xfce (GTK3 version)
+2018-09-01 14:08:12		typora                        	Typora will give you a seamless experience as both a reader and a writer.
