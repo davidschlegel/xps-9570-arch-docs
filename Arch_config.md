@@ -159,3 +159,38 @@ sudo intel-undervolt read
 systemctl start intel-undervolt.service
 #and enable it
 systemctl enable intel-undervolt.service
+
+
+
+
+#Swap file
+#
+#Install systemd-swap
+pacman -Syu systemd-swap
+#edit
+sudo vim /etc/systemd/swap.conf
+#and set:
+swapfc_enabled=1
+swapfc_force_preallocated=1
+#Then start and enable systemd-swap
+systemctl start systemd-swap.service
+systemctl enable systemd-swap.service
+#It is a very good idea to decrease swappiness, since you sould have enough ram for every day purposes
+#So, edit 
+sudo vim /sys/fs/cgroup/memory/memory.swappiness 
+#to a value of (default is 60)
+10
+
+#Hibernation into swap file
+#
+#set kernel parameter
+resume=<Your/Partition> 
+#This is in my case the normal root LVM Partition
+#
+#Additional kernel parameter required for swap file:
+resume_offset=<swap_file_offset>
+#where the value of <swap_file_offset> can be obtained running
+filefrag -v <swap_file>
+#or -- to be absolutely sure -- by using
+swap-offset
+#from the uswusp-git in the AUR.
