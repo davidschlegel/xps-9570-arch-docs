@@ -18,3 +18,4 @@ This is a repository where I document all kinds of stuff about my Dell xps 9570 
 - [aur / foreign package list](https://github.com/davidschlegel/xps-9570-arch-docs/blob/master/aur_packages_explicit.txt)\
 list of aur/foreign packages, i.e. packages not installed by pacman,  sorted by date, generated with the command: \
 `expac --timefmt='%Y-%m-%d %T' -HM '%l\t\t%-30n\t%10d' $(pacman -Qm) | sort > aur_packages_explicit.tx`
+
