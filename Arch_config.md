@@ -143,3 +143,19 @@ w /proc/acpi/call - - - - \\_SB.PCI0.PEG0.PEGP._OFF
 #
 #One problem that remains is that after suspension/hibernation the gpu is powered on
 # and has to be turned off manually
+
+
+#Undervolt CPU, CPU Cache, and GPU
+#install intel-undervolt
+yay intel-undervolt
+intel-undervolt read
+#edit the confit file to desired undervolt
+sudo vim /etc/intel-undervolt.conf
+#apply
+sudo intel-undervolt apply
+#...and read again to check
+sudo intel-undervolt read
+#start systemd service
+systemctl start intel-undervolt.service
+#and enable it
+systemctl enable intel-undervolt.service
