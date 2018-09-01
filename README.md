@@ -12,7 +12,6 @@ This is a repository where I document all kinds of stuff about my Dell xps 9570 
 
  - [pacman package list](https://github.com/davidschlegel/xps-9570-arch-docs/blob/master/pacman_packages_explicit.txt)
     list of pacman packages sorted by date, generated with the command:\
-
   `expac --timefmt='%Y-%m-%d %T' -HM '%l\t\t%-30n\t%10d' $(pacman -Qqent) | sort > pacman_packages_explicit.txt`
 
 - [aur / foreign package list](https://github.com/davidschlegel/xps-9570-arch-docs/blob/master/aur_packages_explicit.txt)\
