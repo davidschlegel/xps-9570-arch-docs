@@ -12,10 +12,18 @@
 2018-08-31 04:35:29		paper-gtk-theme-git           	A modern desktop theme suite. Its design is mostly flat with a minimal use of shadows for depth.
 2018-08-31 10:26:21		ruby-nokogiri                 	HTML, XML, SAX, and Reader parser
 2018-08-31 10:26:29		daemonize                     	Run a program as a Unix daemon
-2018-08-31 10:26:34		flickpapr                     	randomly choose an “interesting” flickr photo for desktop wallpaper
 2018-08-31 12:25:07		intel-undervolt               	Intel CPU undervolting tool
 2018-08-31 14:48:05		spotify                       	A proprietary music streaming service
 2018-09-01 11:33:03		xfce4-appfinder-gtk3          	An application finder for Xfce (GTK3 version)
-2018-09-01 14:08:12		typora                        	Typora will give you a seamless experience as both a reader and a writer.
 2018-09-01 17:41:51		vundle-git                    	Plug-in manager for Vim
 2018-09-01 18:18:20		powerline-fonts-git           	Powerline fonts for X11 and the console
+2018-09-03 16:24:19		toggldesktop                  	Toggl time tracking software
+2018-09-03 16:26:26		mendeleydesktop               	Academic software for managing and sharing research papers (desktop client)
+2018-09-03 21:34:08		tikzit-git                    	Creation and modification of TeX diagrams written using the pgf/TikZ macro library - rewrite in QT and C++
+2018-09-06 11:19:57		rambox-bin                    	Free and Open Source messaging and emailing app that combines common web applications into one.
+2018-09-10 15:51:37		audio-recorder                	Audio Recorder Application
+2018-09-10 16:18:29		audacity-git                  	A program that lets you manipulate digital audio waveforms
+2018-09-10 22:51:45		audacity-extras               	All nyquist plugins for audacity
+2018-09-14 13:28:32		yay                           	Yet another yogurt. Pacman wrapper and AUR helper written in go.
+2018-09-15 10:34:26		logmein-hamachi               	A zero-configuration VPN service
+2018-09-18 14:28:57		typora                        	Typora will give you a seamless experience as both a reader and a writer.

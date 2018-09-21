@@ -3,22 +3,16 @@
 2018-08-30 17:04:17		logrotate                     	Rotates system logs automatically
 2018-08-30 17:04:17		man-db                        	A utility for reading man pages
 2018-08-30 17:04:18		man-pages                     	Linux man pages
-2018-08-30 17:04:18		nano                          	Pico editor clone with enhancements
 2018-08-30 17:04:18		netctl                        	Profile based systemd network management
 2018-08-30 17:04:19		vi                            	The original ex/vi text editor
 2018-08-30 17:04:20		efibootmgr                    	Tool to modify UEFI Firmware Boot Manager Variables
 2018-08-30 17:47:27		intel-ucode                   	Microcode update files for Intel CPUs
 2018-08-30 18:21:18		reflector                     	A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-2018-08-30 18:38:22		go                            	Core compiler tools for the Go programming language
-2018-08-30 19:09:18		nvidia                        	NVIDIA drivers for linux
-2018-08-30 19:57:05		fwupd                         	A simple daemon to allow session software to update firmware
 2018-08-30 21:22:25		xorg-xinit                    	X.Org initialisation program
 2018-08-30 21:31:51		htop                          	Interactive process viewer
-2018-08-30 21:44:07		firefox                       	Standalone web browser from mozilla.org
 2018-08-30 21:45:07		udiskie                       	Removable disk automounter using udisks
 2018-08-30 22:08:21		unclutter                     	A small program for hiding the mouse cursor
 2018-08-30 23:54:18		scrot                         	Simple command-line screenshot utility for X
-2018-08-31 00:00:42		network-manager-applet        	Applet for managing network connections
 2018-08-31 00:06:32		redshift                      	Adjusts the color temperature of your screen according to your surroundings.
 2018-08-31 00:33:25		bluez-utils                   	Development and debugging utilities for the bluetooth protocol stack
 2018-08-31 00:35:20		blueman                       	GTK+ Bluetooth Manager
@@ -37,7 +31,6 @@
 2018-08-31 04:33:47		autoconf                      	A GNU tool for automatically configuring source code
 2018-08-31 04:33:47		automake                      	A GNU tool for automatically creating Makefiles
 2018-08-31 04:33:47		bison                         	The GNU general-purpose parser generator
-2018-08-31 04:33:47		fakeroot                      	Tool for simulating superuser privileges
 2018-08-31 04:33:47		flex                          	A tool for generating text-scanning programs
 2018-08-31 04:33:50		gettext                       	GNU internationalization library
 2018-08-31 04:33:50		make                          	GNU make utility to maintain groups of programs
@@ -46,28 +39,40 @@
 2018-08-31 10:27:32		wget                          	Network utility to retrieve files from the Web
 2018-08-31 10:29:28		xsel                          	XSel is a command-line program for getting and setting the contents of the X selection
 2018-08-31 10:39:33		powertop                      	A tool to diagnose issues with power consumption and power management
-2018-08-31 10:46:05		gnome-tweaks                  	Graphical interface for advanced GNOME 3 settings (Tweak Tool)
 2018-08-31 10:59:24		xorg-xinput                   	Small commandline tool to configure devices
 2018-08-31 11:44:40		xf86-input-synaptics          	Synaptics driver for notebook touchpads
-2018-08-31 12:04:15		xf86-video-intel              	X.org Intel i810/i830/i915/945G/G965+ video drivers
 2018-08-31 12:30:09		systemd-swap                  	Script for creating hybrid swap space from zram swaps, swap files and swap partitions.
 2018-08-31 12:40:17		xss-lock                      	Use external locker as X screen saver
 2018-08-31 12:56:58		xautolock                     	An automatic X screen-locker/screen-saver
 2018-09-01 11:15:22		thunderbird                   	Standalone mail and news reader from mozilla.org
 2018-09-01 12:01:22		xclip                         	Command line interface to the X11 clipboard
-2018-09-01 13:06:49		libreoffice-fresh             	LibreOffice branch which contains new features and program enhancements
-2018-09-01 13:17:44		openssh                       	Premier connectivity tool for remote login with the SSH protocol
-2018-09-01 13:53:04		qt5-tools                     	A cross-platform application and UI framework (Development Tools, QtHelp)
 2018-09-01 14:38:53		expac                         	pacman database extraction utility
 2018-09-01 16:46:17		texstudio                     	Integrated writing environment for creating LaTeX documents
-2018-09-01 16:49:09		texlive-bibtexextra           	TeX Live - Additional BibTeX styles and bibliography databases
-2018-09-01 16:49:26		texlive-fontsextra            	TeX Live - all sorts of extra fonts
-2018-09-01 16:49:27		texlive-formatsextra          	TeX Live - collection of extra TeX 'formats'
-2018-09-01 16:49:28		texlive-humanities            	TeX Live - LaTeX packages for law, linguistics, social sciences, and humanities
-2018-09-01 16:49:28		texlive-pstricks              	TeX Live - Additional PSTricks packages
-2018-09-01 16:49:29		texlive-publishers            	TeX Live - LaTeX classes and packages for specific publishers
-2018-09-01 16:49:29		texlive-science               	TeX Live - Typesetting for mathematics, natural and computer sciences
 2018-09-01 17:07:56		gparted                       	A Partition Magic clone, frontend to GNU Parted
-2018-09-01 17:10:56		gnome-disk-utility            	Disk Management Utility for GNOME
-2018-09-01 17:58:34		powerline                     	Statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile
 2018-09-01 19:02:39		ranger                        	A simple, vim-like file manager
+2018-09-01 21:19:10		mpv                           	a free, open source, and cross-platform media player
+2018-09-03 21:32:21		go                            	Core compiler tools for the Go programming language
+2018-09-03 23:21:15		inkscape                      	Professional vector graphics editor
+2018-09-04 02:17:07		grsync                        	GTK+ GUI for rsync to synchronize folders, files and make backups
+2018-09-04 11:50:23		sshfs                         	FUSE client based on the SSH File Transfer Protocol
+2018-09-06 11:05:20		firefox                       	Standalone web browser from mozilla.org
+2018-09-06 11:05:29		texlive-bibtexextra           	TeX Live - Additional BibTeX styles and bibliography databases
+2018-09-06 11:05:49		texlive-fontsextra            	TeX Live - all sorts of extra fonts
+2018-09-06 11:05:49		texlive-formatsextra          	TeX Live - collection of extra TeX 'formats'
+2018-09-06 11:05:50		texlive-humanities            	TeX Live - LaTeX packages for law, linguistics, social sciences, and humanities
+2018-09-06 11:05:51		texlive-pstricks              	TeX Live - Additional PSTricks packages
+2018-09-06 11:05:52		texlive-publishers            	TeX Live - LaTeX classes and packages for specific publishers
+2018-09-06 11:05:52		texlive-science               	TeX Live - Typesetting for mathematics, natural and computer sciences
+2018-09-06 13:30:50		ipython                       	An enhanced Interactive Python shell.
+2018-09-10 22:51:28		xf86-video-intel              	X.org Intel i810/i830/i915/945G/G965+ video drivers
+2018-09-12 11:21:01		variety                       	Changes the wallpaper on a regular interval using user-specified or automatically downloaded images.
+2018-09-14 12:37:11		acpid                         	A daemon for delivering ACPI power management events with netlink support
+2018-09-14 12:37:20		powerline                     	Statusline plugin for vim, and provides statuslines and prompts for several other applications, including zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+2018-09-14 13:27:53		nano                          	Pico editor clone with enhancements
+2018-09-14 21:26:20		vlc                           	Multi-platform MPEG, VCD/DVD, and DivX player
+2018-09-15 10:34:42		network-manager-applet        	Applet for managing network connections
+2018-09-18 14:06:41		fwupd                         	A simple daemon to allow session software to update firmware
+2018-09-18 14:06:41		gnome-disk-utility            	Disk Management Utility for GNOME
+2018-09-18 14:06:41		gnome-tweaks                  	Graphical interface for advanced GNOME 3 settings (Tweak Tool)
+2018-09-18 14:06:48		libreoffice-fresh             	LibreOffice branch which contains new features and program enhancements
+2018-09-18 14:06:49		nvidia                        	NVIDIA drivers for linux
